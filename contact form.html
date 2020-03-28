@@ -1,0 +1,97 @@
+<iDOCTYPE html>
+    <html>
+        <head>
+            <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+            <link rel="stylesheet" href="contact form.css" content="text/css"/>
+        </head>
+        <body>
+            <img src="download (3).jpg" width="60px" height="60px"/>
+            <h1>National student busary registration</h1>
+            <h3><i>Sign Up</i></h3>
+            <form action="processform.php" method="POST" >
+                <p>
+                    <label for="first_name">First Name</label><br>
+                    <input type="text"name="first_name" placeholder="Enter Your First Name"/>
+                </p>
+                <p>
+                    <label for="last_name">Last Name</label><br>
+                    <input type="text"name="last_name" placeholder="Enter Your Last Name"/>
+                </p>
+                <p>
+                    <label for="email">Email</label><br>
+                    <input type="email"name="email" placeholder="Enter Your email" required/>
+                </p>
+                <p>
+                    <label for="phone_no">Phone No.</label><br>
+                    <input type="text"name="phone_no." placeholder="Enter Your Phone No."/>
+                </p>
+                <p>
+                    <label for="account_no">Account No.</label><br>
+                    <input type="text"name="account_no." placeholder="Enter Your Account No."/>
+                </p>
+                <p> 
+                    <label for="state">STATE OF ORIGIN</label><br>
+                    <select>
+                     <option>ABIA</option>
+                     <option>ADAMAWA</option>          
+                     <option>AKWA IBOM</option>
+                     <option>ANAMBRA</option>
+                     <option>BAUCHI</option>
+                     <option>BAYELSA</option>
+                     <option>BENUE</option>
+                     <option>BORNO</option>          
+                     <option>DELTA</option>
+                     <option>CROSS RIVER</option>
+                     <option>EBONYI</option>
+                     <option>EDO</option>          
+                     <option>EKITI</option>
+                     <option>ENUGU</option>
+                     <option>GOMBE</option>
+                     <option>IMO</option>
+                     <option>JIGAWA</option>          
+                     <option>KADUNA</option>
+                     <option>KANO</option>
+                     <option>KASTINA</option>
+                     <option>KEBBI</option>
+                     <option>KOGI</option>          
+                     <option>KWARA</option>
+                     <option>LAGOS</option>
+                     <option>NASARAWA</option>
+                     <option>NIGER</option>
+                     <option>OGUN</option>          
+                     <option>ONDO</option>
+                     <option>OSUN</option>
+                     <option>OYO</option>
+                     <option>PLATEAU</option>
+                     <option>RIVERS</option>          
+                     <option>SOKOTO</option>
+                     <option>TARABA</option>
+                     <option>YOBE</option>  
+                     <option>ZAMFARA</option>
+                     <option>ABUJA</option>
+                 </select></p>             
+               <p> 
+                   <label for="level">LEVEL</label><br>
+                   <select>
+                    <option>100</option>
+                    <option>200</option>               
+                    <option>300</option>
+                    <option>400</option>
+                    <option>500</option>
+                </select></p>
+                <p>
+                        <label for="gender">Gender</label><br>
+                        <input type="radio"name="gender"/>Male
+                        <input type="radio"name="gender"/>Female
+                    </p>
+                <p>
+                    <label for="email">Home Address</label><br>
+                    <textarea name="address"col="5" rows="5"> </textarea>
+                </p>
+                <p>
+                    <input type="checkbox" name="terms"required/>By checking this box you agree to our terms and conditions
+             </p> 
+                <button type="submit">Send message</button>
+            </form>
+        </body>
+    </html>
